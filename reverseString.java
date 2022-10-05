@@ -16,9 +16,9 @@ for (int i=s.length-1;i>=0;i--){
 reverse[j++]=s[i];
 
     }   
-    for(int k=0;k<s.length;k++){
-        s[k]=reverse[k];
-    }
+   //  for(int k=0;k<s.length;k++){
+//         s[k]=reverse[k];
+//     }
     System.out.println(reverse);
 }
 
