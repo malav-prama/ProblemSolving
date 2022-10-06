@@ -11,7 +11,7 @@ public class reverseVowels
    
    public static String method(String s)
    {
-    String ans= "";
+        String ans= "";
         Stack<Character> st = new Stack<>();
         for(int i=0;i<s.length();i++){
             char ch = s.charAt(i);
