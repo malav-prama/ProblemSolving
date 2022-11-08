@@ -22,7 +22,7 @@
 //  
 
 
-class twoSumProgram {
+class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         
         int[] newArray = new int[2];

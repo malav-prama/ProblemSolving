@@ -23,7 +23,7 @@
 // Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 
-class isPalindromeProgram {
+class Palindrome {
     public boolean isPalindrome(int x) {
         int sum=0;
         int t=x;
