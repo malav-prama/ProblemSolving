@@ -15,7 +15,6 @@ public class LongestSubstringOfAString
         String LongestSubString=null;
         int LongestSubstringLength=0;
         Map<Character, Integer> map=new LinkedHashMap<Character, Integer>();
-
         char[] arr=test.toCharArray();
 
         for (int i=0; i< arr.length;i++)
